@@ -1,0 +1,4 @@
+#!/usr/bin/env perl
+use strict;
+use CPAN::Author::Signature::App;
+CPAN::Author::Signature::App->run();
