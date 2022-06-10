@@ -1,6 +1,6 @@
 # CPAN::Author::Signature
 
-Tool for author signing CPAN distributions, experimental.
+Tool for author signing CPAN distribution using openssh >= 8, experimental.
 
 ``` sh
 [nix-shell:~/opensource/CPAN-Author-Signature]$ bin/cpan-author-signature sign -f ~/.ssh/id_rsa.pub -a STIGTSP ~/Foobar-0.1.tar.gz
